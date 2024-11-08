@@ -1,21 +1,27 @@
 <template>
-  <div class="w-full bg-gray-100 flex flex-col">
-    <!-- Header -->
-    <div>
-      <header class=""><img src="/public/img/header.jpg"></header>
-      <img src="">
-    </div>
+  <!-- Header -->
+  <div class="">
+      <header class="relative min-h-screen flex items-center justify-center bg-cover bg-center">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10 text-center">
+          <div class="justify-center"><img class="mx-auto w-96  " src="/public/img/Logo-White.svg"></div>
+          <h1 class="uppercase pb-0"><span class="text-[#6FDB77]">Mo</span>tiveer re<span class="text-[#6FDB77]">cy</span>ling</h1>
+          <h2 class="uppercase pt-0"><span class="text-[#6FDB77] bg-white">&nbsp;Duurzaamheid&nbsp;</span> begint bij ons.</h2>
+        </div>
+      </header>
+
+
     <!-- Main Content -->
-    <main class="flex-1 container mx-auto p-6">
-      <section class="bg-white shadow-lg rounded-lg p-6">
-        <h2 class="text-2xl font-semibold mb-4">Welkom op de Hoofdpagina</h2>
-        <p class="text-gray-700 mb-6">Dit is een voorbeeld van een website gemaakt met Nuxt 3 en gestyled met Tailwind CSS.</p>
-
-        <p class="text-gray-700 mb-4">Met deze setup kun je eenvoudig responsive en moderne webpagina's maken. Tailwind CSS biedt utility-first klassen waarmee je snel kunt stylen zonder extra CSS te schrijven.</p>
-
-        <button class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-          Leer Meer
-        </button>
+    <main class="">
+      <section class="relative flex items-center justify-center bg-cover bg-center mt-0" >
+        <div class="justify-center -mt-20"><img src="/public/img/passen.svg"></div>
+      </section>
+      <div class="flex justify-center gap-x-4">
+        <img class="w-1/2 h-auto" src="/public/img/bush.png">
+        <img class="w-1/2 h-auto" src="/public/img/bush.png">
+      </div>
+      <section>
+        <div><img src="/public/img/mid-field.jpg"></div>
       </section>
     </main>
 
