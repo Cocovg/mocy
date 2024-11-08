@@ -20,13 +20,26 @@ header{
     background: url("public/img/header.jpg");
 }
 .midpart{
-    background: url("/public/img/mid-test.svg");
+    background: url("/public/img/mid-field.svg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .midtext {
     font-family: lato;
     font-weight: 400;
+}
+.ellipse1{
+    background: url("/public/img/ellipse1.svg");
+    background-repeat: no-repeat;
+}
+.ellipse2{
+    background: url("/public/img/ellipse2.svg");
+    background-repeat: no-repeat;
+}
+.ellipsetext{
+    font-family: lato;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 #scrolling-img {

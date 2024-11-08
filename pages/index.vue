@@ -12,9 +12,9 @@
 
 
     <!-- Main Content -->
-    <main class="">
+    <main class="bg-[#F4F4F4]">
       <section class="relative flex items-center justify-center bg-cover bg-center mt-0">
-        <div class="justify-center -mt-20">
+        <div class="justify-center -mt-0">
           <img id="scrolling-img" src="/public/img/passen.svg" alt="Passen Image">
         </div>
       </section>
@@ -40,22 +40,46 @@
         </div>
       </section>
       <section>
-        <div>
-          <div class="ellipse1"></div>
-          <div class="ellipse2"></div>
+        <div class="relative flex justify-between mr-36 ml-36 overflow-hidden">
+          <div class="relative bg-[#6FDB77] text-white rounded-full w-[650px] h-[650px] flex items-center justify-center shadow-md">
+            <div class="text-center px-4">
+            <h2 class="uppercase">AANVRAGEN PAS.</h2>
+            <p class="ellipsetext leading-5 max-w-sm leading-relaxed">
+              Vraag nu een pas aan bij uw gemeente en ontvang deze via de post. De pas is onbeperkt geldig en is verbonden aan uw adres.
+              <br><br>
+              Elke maand hebben we speciale acties bij goede doelen en partners.
+            </p>
+            </div>
+          </div>
+          <div class="relative bg-[#A7DBEF] text-white rounded-full w-[500px] h-[500px] mt-96 flex items-center justify-center shadow-md">
+            <div class="text-center px-4">
+              <h2 class="uppercase">AANVRAGEN PAS.</h2>
+              <p class="ellipsetext leading-5 max-w-sm leading-relaxed">
+                Vraag nu een pas aan bij uw gemeente en ontvang deze via de post. De pas is onbeperkt geldig en is verbonden aan uw adres.
+                <br><br>
+                Elke maand hebben we speciale acties bij goede doelen en partners.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center gap-x-96 overflow-hidden -mt-36 z-0">
+          <img class="w-1/2 h-auto" src="/public/img/bush.png">
+          <img class="w-1/2 h-auto" src="/public/img/bush.png">
         </div>
       </section>
-      <div class="flex justify-center gap-x-96 overflow-hidden -mt-36">
-        <img class="w-1/2 h-auto" src="/public/img/bush.png">
-        <img class="w-1/2 h-auto" src="/public/img/bush.png">
-      </div>
     </main>
 
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white p-4">
-      <div class="container mx-auto text-center">
-        <p>&copy; 2023 Mijn Nuxt + Tailwind Website</p>
+    <footer class="bg-[#6FDB77] text-white -mt-48 p-4 z-5">
+      <div class="container ">
+        <img class="w-[270px]" src="/public/img/Logo-White.svg">
+        <h3>Contact</h3>
+        <p>Postbus 999<br>
+          1234 AB Woonplaats<br>
+          info@MOCY.com<br>
+          123-12345678
+        </p>
       </div>
     </footer>
   </div>
@@ -63,12 +87,15 @@
 
 
 <script setup lang="ts">
-// JavaScript om de afbeelding te verschuiven bij scrollen
-window.addEventListener('scroll', function() {
-  const img = document.getElementById('scrolling-img');
-  const scrollPosition = window.scrollY; // Bepaal de scrollpositie
+onMounted(() => {
+  // JavaScript om de afbeelding te verschuiven bij scrollen
+  window.addEventListener('scroll', function() {
+    const img = document.getElementById('scrolling-img');
+    const scrollPosition = window.scrollY; // Bepaal de scrollpositie
 
-  // Schaal de afbeelding een beetje op basis van de scrollpositie
-  img.style.transform = `translateY(${scrollPosition * 0.1}px)`; // Verschuif de afbeelding licht
-});
+    // Schaal de afbeelding een beetje op basis van de scrollpositie
+    img.style.transform = `translateY(${scrollPosition * 0.1}px)`; // Verschuif de afbeelding licht
+  });
+})
+
 </script>
