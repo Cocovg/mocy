@@ -39,9 +39,11 @@
           </div>
         </div>
       </section>
+
       <section>
+        <img class="pl-97" src="/public/img/lights.svg">
         <div class="relative flex justify-between mr-36 ml-36 overflow-hidden">
-          <div class="relative bg-[#6FDB77] text-white rounded-full w-[650px] h-[650px] flex items-center justify-center shadow-md">
+          <div class="relative bg-[#6FDB77] text-white rounded-full w-[600px] h-[600px] flex items-center justify-center shadow-md">
             <div class="text-center px-4">
             <h2 class="uppercase">AANVRAGEN PAS.</h2>
             <p class="ellipsetext leading-5 max-w-sm leading-relaxed">
@@ -62,6 +64,8 @@
             </div>
           </div>
         </div>
+
+        <img src="/public/img/lights.svg">
         <div class="flex justify-center gap-x-96 overflow-hidden -mt-36 z-0">
           <img class="w-1/2 h-auto" src="/public/img/bush.png">
           <img class="w-1/2 h-auto" src="/public/img/bush.png">
@@ -71,7 +75,7 @@
 
 
     <!-- Footer -->
-    <footer class="bg-[#6FDB77] text-white -mt-48 p-4 z-5">
+    <footer class="bg-[#6FDB77] text-white -mt-48 p-4 z-5 relative">
       <div class="container ">
         <img class="w-[270px]" src="/public/img/Logo-White.svg">
         <h3>Contact</h3>

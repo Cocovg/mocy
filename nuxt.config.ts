@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   buildModules: [
       '@nuxt/postcss8'
   ],
+    link: [
+        { rel: "icon", type: "image/x-icon", href: "/public/favicon.ico" },
+    ],
 
   build: {
       postcss: {
