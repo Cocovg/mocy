@@ -10,6 +10,25 @@ h2{
     font-size: 25px;
     color: white;
 }
+h3{
+    font-family: lalezar;
+    font-weight: 300;
+    font-size: 25px;
+    color: #6FDB77;
+}
 header{
     background: url("public/img/header.jpg");
+}
+.midpart{
+    background: url("/public/img/mid-test.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.midtext {
+    font-family: lato;
+    font-weight: 400;
+}
+
+#scrolling-img {
+    transition: transform 0.2s ease-out; /* Zorg voor een soepele overgang */
 }
