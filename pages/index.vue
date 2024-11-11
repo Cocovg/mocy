@@ -75,11 +75,11 @@
 
 
     <!-- Footer -->
-    <footer class="bg-[#6FDB77] text-white -mt-48 p-4 z-5 relative">
-      <div class="container ">
+    <footer class="bg-[#6FDB77] text-white -mt-48 p-4 z-5 relative  ">
+      <div class="container flex items-center justify-center space-x-64 p-24 ">
         <img class="w-[270px]" src="/public/img/Logo-White.svg">
-        <h3>Contact</h3>
-        <p>Postbus 999<br>
+        <p><span class="font-bold">Contact</span><br>
+          Postbus 999<br>
           1234 AB Woonplaats<br>
           info@MOCY.com<br>
           123-12345678
