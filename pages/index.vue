@@ -30,27 +30,32 @@
         <img class="w-1/2 h-auto" src="/public/img/bush.png">
       </div>
       <section class="-mt-48">
-        <div class="midpart sm:opacity-0 lg:opacity-100 relative min-h-screen flex items-center justify-center bg-contain bg-center">
-          <div class="relative z-10 text-center flex flex-col items-center">
-            <div class="relative max-w-xs sm:max-w-md md:max-w-lg lg:max-w-3xl">
-              <img src="/public/img/mid-square.svg" alt="Mid Square" class="z-10 mb-4 ">
-              <div class="absolute inset-0 flex flex-col items-center justify-center p-6 text-white">
-                <h3 class="uppercase bg-white pr-1 pl-1 sm:text-l md:text-base lg:text-2xl">Waarom MOCY?</h3>
-                <p class="midtext sm:text-sm md:text-base leading-5 text-justify max-w-sm leading-relaxed pt-8">
-                  <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY</span> is een bedrijf dat achter duurzaamheid staat. Door middel van de <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY RECYCLE PAS</span>, is het mogelijk producten te recyclen tegen een beloning die bij jou past! Denk hierbij aan kortingsbonnen, cadeaukaarten of ondersteun goede doelen.
-                  Wij bij <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY</span> willen mensen motiveren om te recyclen. Zo zijn bijvoorbeeld batterijen en lampen gemaakt van meerdere materialen die weer kunnen worden gebruikt voor nieuwe producten, waarbij circa 92% van de grondstoffen van lampen wordt hergebruikt.
-                  <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY</span> biedt een makkelijke en belonende motivatie voor recyclen. Hierdoor denken wij allemaal een klein beetje meer aan duurzaamheid en de toekomst van ons milieu.
-                </p>
-              </div>
+      <div class="relative">
+        <!-- Field image: Alleen zichtbaar op desktop (lg+) -->
+        <img class="hidden lg:block absolute pt-20 w-full min-h-screen bg-cover bg-center z-0" src="/public/img/mid-field.svg" alt="Field Image">
+
+        <!-- Inhoud (square en tekst) komt boven de field image (alleen op desktop) -->
+        <div class="relative z-10 text-center flex flex-col items-center">
+          <div class="relative max-w-xs sm:max-w-md md:max-w-lg lg:max-w-3xl">
+            <img src="/public/img/mid-square.svg" alt="Mid Square" class="z-10 mb-4 lg:mt-48">
+            <div class="absolute inset-0 flex flex-col items-center justify-center p-6 text-white z-20 mt-48">
+              <h3 class="uppercase bg-white pr-1 pl-1 sm:text-l md:text-base lg:text-2xl">Waarom MOCY?</h3>
+              <p class="midtext sm:text-sm md:text-base leading-5 text-justify max-w-sm leading-relaxed pt-8">
+                <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY</span> is een bedrijf dat achter duurzaamheid staat. Door middel van de <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY RECYCLE PAS</span>, is het mogelijk producten te recyclen tegen een beloning die bij jou past! Denk hierbij aan kortingsbonnen, cadeaukaarten of ondersteun goede doelen.
+                Wij bij <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY</span> willen mensen motiveren om te recyclen. Zo zijn bijvoorbeeld batterijen en lampen gemaakt van meerdere materialen die weer kunnen worden gebruikt voor nieuwe producten, waarbij circa 92% van de grondstoffen van lampen wordt hergebruikt.
+                <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY</span> biedt een makkelijke en belonende motivatie voor recyclen. Hierdoor denken wij allemaal een klein beetje meer aan duurzaamheid en de toekomst van ons milieu.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+
 
       <section>
         <img class="pl-98" id="scrolling-illu1" src="/public/img/batteries.svg">
-        <div class="relative md:flex md:justify-between sm:mr-16 sm:ml-16 md:mr-48 md:ml-48 overflow-hidden -mt-12">
-          <div class="relative bg-[#6FDB77] text-white md:rounded-full sm:w-[75px] sm:h-[75px] md:w-[600px] md:h-[600px] flex items-center justify-center shadow-md">
+        <div class="relative md:flex md:justify-between  sm:mr-24 sm:ml-24 md:mr-48 md:ml-48 overflow-hidden mt-12">
+          <div class="relative bg-[#6FDB77] text-white md:rounded-full  sm:w-[75px] sm:h-[75px] md:w-[600px] md:h-[600px] flex items-center justify-center shadow-md">
             <div class="text-center px-4">
               <h2 class="uppercase"><span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">Duurzaamheid</span> begint bij ons.</h2>
             <p class="ellipsetext leading-5 max-w-sm leading-relaxed">
@@ -59,7 +64,7 @@
             </p>
             </div>
           </div>
-          <div class="relative bg-[#A7DBEF] text-white md:rounded-full sm:w-[75px] sm:h-[75px] md:w-[500px] md:h-[500px] mt-96 flex items-center justify-center shadow-md p-">
+          <div class="relative bg-[#A7DBEF] text-white md:rounded-full sm:w-[75px] sm:h-[75px] md:w-[500px] md:h-[500px] md:mt-96 flex items-center justify-center shadow-md p-">
             <div class="text-center px-4">
               <h2 class="uppercase">AANVRAGEN PAS.</h2>
               <p class="ellipsetext leading-5 max-w-sm leading-relaxed">
