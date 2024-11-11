@@ -15,7 +15,7 @@
     <main class="bg-[#F4F4F4]">
       <section class="relative flex items-center justify-center bg-cover bg-center mt-0">
         <div class="justify-center -mt-0">
-          <img id="scrolling-img" src="/public/img/passen.svg" alt="Passen Image">
+          <img id="scrolling-pas" src="/public/img/passen.svg" alt="Passen Image">
         </div>
       </section>
       <div class="flex justify-center gap-x-96 overflow-hidden -mt-36">
@@ -41,8 +41,8 @@
       </section>
 
       <section>
-        <img class="pl-97" src="/public/img/lights.svg">
-        <div class="relative flex justify-between mr-36 ml-36 overflow-hidden">
+        <img class="pl-98 " id="scrolling-illu1" src="/public/img/batteries.svg">
+        <div class="relative flex justify-between mr-48 ml-48 overflow-hidden -mt-12">
           <div class="relative bg-[#6FDB77] text-white rounded-full w-[600px] h-[600px] flex items-center justify-center shadow-md">
             <div class="text-center px-4">
             <h2 class="uppercase">AANVRAGEN PAS.</h2>
@@ -64,8 +64,9 @@
             </div>
           </div>
         </div>
-
-        <img src="/public/img/lights.svg">
+        <img class="pl-16 pb-96 -mt-96" id="scrolling-illu2"  src="/public/img/lights.svg">
+      </section>
+      <section>
         <div class="flex justify-center gap-x-96 overflow-hidden -mt-36 z-0">
           <img class="w-1/2 h-auto" src="/public/img/bush.png">
           <img class="w-1/2 h-auto" src="/public/img/bush.png">
@@ -94,12 +95,29 @@
 onMounted(() => {
   // JavaScript om de afbeelding te verschuiven bij scrollen
   window.addEventListener('scroll', function() {
-    const img = document.getElementById('scrolling-img');
+    const img = document.getElementById('scrolling-pas');
     const scrollPosition = window.scrollY; // Bepaal de scrollpositie
 
     // Schaal de afbeelding een beetje op basis van de scrollpositie
     img.style.transform = `translateY(${scrollPosition * 0.1}px)`; // Verschuif de afbeelding licht
   });
+})
+onMounted(() => {
+  // JavaScript om de afbeelding te verschuiven bij scrollen
+  window.addEventListener('scroll', function() {
+    const img = document.getElementById('scrolling-illu1');
+    const scrollPosition = window.scrollY; // Bepaal de scrollpositie
+
+    // Schaal de afbeelding een beetje op basis van de scrollpositie
+    img.style.transform = `translateY(${scrollPosition * 0.1}px)`; // Verschuif de afbeelding licht
+  });
+window.addEventListener('scroll', function() {
+  const img = document.getElementById('scrolling-illu2');
+  const scrollPosition = window.scrollY; // Bepaal de scrollpositie
+
+  // Schaal de afbeelding een beetje op basis van de scrollpositie
+  img.style.transform = `translateY(${scrollPosition * 0.1}px)`; // Verschuif de afbeelding licht
+});
 })
 
 </script>
