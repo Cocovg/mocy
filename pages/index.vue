@@ -1,29 +1,36 @@
 <template>
   <!-- Header -->
-  <div class="">
-      <header class="relative min-h-screen flex items-center justify-center bg-cover bg-center">
-        <div class="absolute inset-0 bg-[#5B8264] opacity-40"></div>
-        <div class="relative z-10 text-center">
-          <div class="justify-center"><img class="mx-auto w-96  " src="/public/img/Logo-White.svg"></div>
-          <h1 class="uppercase pb-0"><span class="text-[#6FDB77]">Mo</span>tiveer re<span class="text-[#6FDB77]">cy</span>ling</h1>
-          <h2 class="uppercase pt-0"><span class="text-[#6FDB77] bg-white">&nbsp;Duurzaamheid&nbsp;</span> begint bij ons.</h2>
+  <div class=" overflow-hidden">
+    <header class="relative min-h-screen flex items-center justify-center bg-cover bg-center px-4 sm:px-0 md:px-8 lg:px-16">
+      <div class="absolute inset-0 bg-[#5B8264] opacity-40"></div>
+      <div class="relative z-10 text-center">
+        <div class="justify-center">
+          <img class="mx-auto w-48 sm:w-64 md:w-80 lg:w-96" src="/public/img/Logo-White.svg">
         </div>
-      </header>
+        <h1 class="uppercase text-lg sm:text-xl md:text-2xl lg:text-7xl pb-0">
+          <span class="text-[#6FDB77]">Mo</span>tiveer re<span class="text-[#6FDB77]">cy</span>ling
+        </h1>
+        <h2 class="uppercase text-sm sm:text-base md:text-xl lg:text-2xl pt-0">
+          <span class="text-[#6FDB77] bg-white px-2">Duurzaamheid</span> begint bij ons.
+        </h2>
+      </div>
+    </header>
+
 
 
     <!-- Main Content -->
     <main class="bg-[#F4F4F4]">
       <section class="relative flex items-center justify-center bg-cover bg-center mt-0">
-        <div class="justify-center -mt-0">
-          <img id="scrolling-pas" src="/public/img/passen.svg" alt="Passen Image">
+        <div class="justify-center z-20 -mt-0">
+          <img id="scrolling-pas" class="sm: w-48 px-0 md:w-80 lg:w-auto" src="/public/img/passen.svg" alt="Passen Image">
         </div>
       </section>
       <div class="flex justify-center gap-x-96 overflow-hidden -mt-36">
-        <img class="w-1/2 h-auto" src="/public/img/bush.png">
+        <img class="w-1/2 h-auto sm:w-97 lg:w-97" src="/public/img/bush.png">
         <img class="w-1/2 h-auto" src="/public/img/bush.png">
       </div>
       <section class="-mt-48">
-        <div class="midpart relative min-h-screen flex items-center justify-center bg-contain bg-center">
+        <div class="midpart sm:opacity-0 lg:opacity-100 relative min-h-screen flex items-center justify-center bg-contain bg-center">
           <div class="relative z-10 text-center flex flex-col items-center">
             <div class="relative">
               <img src="/public/img/mid-square.svg" alt="Mid Square" class="z-10 mb-4">
@@ -41,19 +48,18 @@
       </section>
 
       <section>
-        <img class="pl-98 " id="scrolling-illu1" src="/public/img/batteries.svg">
+        <img class="pl-98" id="scrolling-illu1" src="/public/img/batteries.svg">
         <div class="relative flex justify-between mr-48 ml-48 overflow-hidden -mt-12">
           <div class="relative bg-[#6FDB77] text-white rounded-full w-[600px] h-[600px] flex items-center justify-center shadow-md">
             <div class="text-center px-4">
-            <h2 class="uppercase">AANVRAGEN PAS.</h2>
+              <h2 class="uppercase"><span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">Duurzaamheid</span> begint bij ons.</h2>
             <p class="ellipsetext leading-5 max-w-sm leading-relaxed">
-              Vraag nu een pas aan bij uw gemeente en ontvang deze via de post. De pas is onbeperkt geldig en is verbonden aan uw adres.
-              <br><br>
-              Elke maand hebben we speciale acties bij goede doelen en partners.
+              Altijd al willen recyclen, maar is de motivatie niet hoog genoeg om dit te doen? Of bent je altijd al
+              gemotiveerd geweest maar ontvang je graag een beloning voor alle moeite? MOCY biedt mogelijkheden om deze motivatie te verhogen, met kortingen, cadeaubonnen of het ondersteunen van goede doelen.
             </p>
             </div>
           </div>
-          <div class="relative bg-[#A7DBEF] text-white rounded-full w-[500px] h-[500px] mt-96 flex items-center justify-center shadow-md">
+          <div class="relative bg-[#A7DBEF] text-white rounded-full w-[500px] h-[500px] mt-96 flex items-center justify-center shadow-md p-">
             <div class="text-center px-4">
               <h2 class="uppercase">AANVRAGEN PAS.</h2>
               <p class="ellipsetext leading-5 max-w-sm leading-relaxed">
