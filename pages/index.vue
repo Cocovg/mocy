@@ -13,6 +13,9 @@
         <h2 class="uppercase text-sm sm:text-base md:text-xl lg:text-2xl pt-0">
           <span class="text-[#6FDB77] bg-white px-2">Duurzaamheid</span> begint bij ons.
         </h2>
+        <div id="scrolling-illu1" class="justify-center relative z-10 text-center block lg:hidden">
+          <img class="mx-auto flex flex-end mt-24 sm:w-16 md:w-80 lg:w-16 opacity-60" src="/public/img/arrow.svg">
+        </div>
       </div>
     </header>
 
@@ -21,7 +24,7 @@
     <main class="bg-[#F4F4F4]">
       <br>
       <section class="relative flex items-center justify-center bg-cover bg-center mt-0">
-      <div class="justify-center z-20 sm:mt-4 md:mt-8 lg:mt-12">
+      <div class="justify-center z-20 sm:mt-4 md:mt-8 lg:-mt-24">
         <img id="scrolling-pas" class="w-48 lg:px-0 md:w-80 lg:w-auto" src="/public/img/passen.svg" alt="Passen Image">
       </div>
     </section>
@@ -121,7 +124,7 @@ onMounted(() => {
 
     // Check if screen width is greater than 768px before applying transform
     if (window.innerWidth > 768) {
-      img.style.transform = `translateY(${scrollPosition * 0.1}px)`; // Move image slightly
+      img.style.transform = `translateY(${scrollPosition * 0.2}px)`; // Move image slightly
     } else {
       // Reset transformation on mobile
       img.style.transform = 'translateY(0)';
