@@ -37,9 +37,9 @@
 
         <!-- Inhoud (square en tekst) komt boven de field image (alleen op desktop) -->
         <div class="relative z-10 lg:text-center flex flex-col lg:items-center">
-        <div class="relative sm:max-w-md md:max-w-lg lg:max-w-3xl">
+        <div class="relative max-w-3xl">
           <img src="/public/img/mid-square.svg" alt="Mid Square" class="hidden lg:block z-10 mb-4 lg:mt-48">
-          <div class="lg:absolute lg:inset-0 flex flex-col items-center justify-center sm:px-1 lg:p-6 z-20 lg:mt-48">
+          <div class="lg:absolute lg:inset-0 flex flex-col items-center justify-center p-6 lg:p-6 z-20 lg:mt-48">
             <h3 class="uppercase bg-white pr-1 pl-1 sm:text-l md:text-base lg:text-2xl">Waarom MOCY?</h3>
             <p class="midtext sm:text-sm md:text-base leading-5 text-justify max-w-sm leading-relaxed pt-8 sm:text-blue-700 md:text-white sm:px-4">
               <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY</span> is een bedrijf dat achter duurzaamheid staat. Door middel van de <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY RECYCLE PAS</span>, is het mogelijk producten te recyclen tegen een beloning die bij jou past! Denk hierbij aan kortingsbonnen, cadeaukaarten of ondersteun goede doelen.
@@ -54,8 +54,11 @@
     </section>
       <section>
         <img class="pl-98 hidden lg:block" id="scrolling-illu1" src="/public/img/batteries.svg">
+        <div class="block lg:hidden relative mt-24 ">
+          <img class="absolute w-full h-auto -mt-24" src="/public/img/bush.png">
+        </div>
         <div class="relative md:flex md:justify-between md:mr-48 md:ml-48  overflow-hidden mt-12">
-          <div class="relative bg-[#6FDB77] text-white md:rounded-full sm:w-[75px] sm:h-[75px] md:w-[600px] md:h-[600px] flex items-center justify-center shadow-md p-6 md:p-8">
+          <div class="relative bg-[#6FDB77] text-white md:rounded-full sm:w-[75px] sm:h-[75px] md:w-[600px] md:h-[600px] flex items-center justify-center shadow-md p-6 md:p-8 ">
             <div class="text-center lg:px-4">
               <h2 class="uppercase">
                 <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">Duurzaamheid</span> begint bij ons.
@@ -66,8 +69,7 @@
               </p>
             </div>
           </div>
-
-          <div class="relative bg-[#A7DBEF] text-white md:rounded-full sm:w-[75px] sm:h-[75px] md:w-[500px] md:h-[500px] md:mt-96 flex items-center justify-center shadow-md p-6 md:p-8">
+          <div class="relative bg-[#A7DBEF] text-white md:rounded-full sm:w-[75px] sm:h-[75px] md:w-[500px] md:h-[500px] md:mt-96 flex items-center justify-center shadow-md p-6 md:p-8 ">
             <div class="text-center px-4">
               <h2 class="uppercase">AANVRAGEN PAS.</h2>
               <p class="ellipsetext leading-5 max-w-sm leading-relaxed">
@@ -88,10 +90,12 @@
         </div>
       </section>
     </main>
-
+    <div class="block lg:hidden">
+      <img src="/public/img/bush.png">
+    </div>
 
     <!-- Footer -->
-    <footer class="bg-[#6FDB77] text-white lg:-mt-48 p-4 z-5 relative">
+    <footer class="bg-[#6FDB77] text-white -mt-48 p-4 z-5 relative">
       <div class="container flex flex-col md:flex-row items-center justify-center gap-8 sm:gap-64 p-8">
         <img class="w-32 sm:w-48 lg:w-64" src="/public/img/Logo-White.svg">
         <p class="text-center md:text-left">
