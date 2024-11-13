@@ -17,7 +17,6 @@
     </header>
 
 
-
     <!-- Main Content -->
     <main class="bg-[#F4F4F4]">
       <section class="relative flex items-center justify-center bg-cover bg-center mt-0">
