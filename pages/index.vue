@@ -22,25 +22,25 @@
     <main class="bg-[#F4F4F4]">
       <section class="relative flex items-center justify-center bg-cover bg-center mt-0">
         <div class="justify-center z-20 -mt-0">
-          <img id="scrolling-pas" class="sm: w-48 px-0 md:w-80 lg:w-auto" src="/public/img/passen.svg" alt="Passen Image">
+          <img id="scrolling-pas" class="w-48 px-0 md:w-80 lg:w-auto" src="/public/img/passen.svg" alt="Passen Image">
         </div>
       </section>
-      <div class="flex justify-center gap-x-96 overflow-hidden -mt-36">
-        <img class="w-1/2 h-auto sm:w-97 lg:w-97" src="/public/img/bush.png">
-        <img class="w-1/2 h-auto" src="/public/img/bush.png">
+      <div class="flex justify-center gap-x-96 overflow-hidden lg:-mt-36 ">
+        <img class="w-1/2 h-auto sm:w-97 lg:w-97 hidden lg:block" src="/public/img/bush.png">
+        <img class="w-1/2 h-auto hidden lg:block" src="/public/img/bush.png">
       </div>
-      <section class="-mt-48">
+      <section class=" sm:mt-12 lg:-mt-48">
       <div class="relative">
         <!-- Field image: Alleen zichtbaar op desktop (lg+) -->
         <img class="hidden lg:block absolute pt-20 w-full min-h-screen bg-cover bg-center z-0" src="/public/img/mid-field.svg" alt="Field Image">
 
         <!-- Inhoud (square en tekst) komt boven de field image (alleen op desktop) -->
-        <div class="relative z-10 text-center flex flex-col items-center">
-          <div class="relative max-w-xs sm:max-w-md md:max-w-lg lg:max-w-3xl">
-            <img src="/public/img/mid-square.svg" alt="Mid Square" class="z-10 mb-4 lg:mt-48">
-            <div class="absolute inset-0 flex flex-col items-center justify-center p-6 text-white z-20 mt-48">
+        <div class="relative z-10 lg:text-center flex flex-col lg:items-center">
+          <div class="relative sm:max-w-md md:max-w-lg lg:max-w-3xl">
+            <img src="/public/img/mid-square.svg" alt="Mid Square" class=" hidden lg:block z-10 mb-4 lg:mt-48">
+            <div class="lg:absolute lg:inset-0 flex flex-col items-center justify-center sm:px-1 lg:p-6  z-20 lg:mt-48">
               <h3 class="uppercase bg-white pr-1 pl-1 sm:text-l md:text-base lg:text-2xl">Waarom MOCY?</h3>
-              <p class="midtext sm:text-sm md:text-base leading-5 text-justify max-w-sm leading-relaxed pt-8">
+              <p class="midtext sm:text-sm md:text-base leading-5 text-justify max-w-sm leading-relaxed pt-8 sm:text-blue-700 md:text-white">
                 <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY</span> is een bedrijf dat achter duurzaamheid staat. Door middel van de <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY RECYCLE PAS</span>, is het mogelijk producten te recyclen tegen een beloning die bij jou past! Denk hierbij aan kortingsbonnen, cadeaukaarten of ondersteun goede doelen.
                 Wij bij <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY</span> willen mensen motiveren om te recyclen. Zo zijn bijvoorbeeld batterijen en lampen gemaakt van meerdere materialen die weer kunnen worden gebruikt voor nieuwe producten, waarbij circa 92% van de grondstoffen van lampen wordt hergebruikt.
                 <span class="text-[#6FDB77] font-bold bg-white pr-1 pl-1">MOCY</span> biedt een makkelijke en belonende motivatie voor recyclen. Hierdoor denken wij allemaal een klein beetje meer aan duurzaamheid en de toekomst van ons milieu.
@@ -53,7 +53,7 @@
 
 
       <section>
-        <img class="pl-98" id="scrolling-illu1" src="/public/img/batteries.svg">
+        <img class="pl-98 hidden lg:block" id="scrolling-illu1" src="/public/img/batteries.svg">
         <div class="relative md:flex md:justify-between  sm:mr-24 sm:ml-24 md:mr-48 md:ml-48 overflow-hidden mt-12">
           <div class="relative bg-[#6FDB77] text-white md:rounded-full  sm:w-[75px] sm:h-[75px] md:w-[600px] md:h-[600px] flex items-center justify-center shadow-md">
             <div class="text-center px-4">
@@ -64,7 +64,7 @@
             </p>
             </div>
           </div>
-          <div class="relative bg-[#A7DBEF] text-white md:rounded-full sm:w-[75px] sm:h-[75px] md:w-[500px] md:h-[500px] md:mt-96 flex items-center justify-center shadow-md p-">
+          <div class="relative bg-[#A7DBEF] text-white md:rounded-full sm:w-[75px] sm:h-[75px] md:w-[500px] md:h-[500px] sm:mt-96 md:mt-96 flex items-center justify-center shadow-md p-">
             <div class="text-center px-4">
               <h2 class="uppercase">AANVRAGEN PAS.</h2>
               <p class="ellipsetext leading-5 max-w-sm leading-relaxed">
@@ -75,7 +75,7 @@
             </div>
           </div>
         </div>
-        <img class="pl-16 pb-96 -mt-96" id="scrolling-illu2"  src="/public/img/lights.svg">
+        <img class="pl-16 pb-96 -mt-96 hidden lg:block" id="scrolling-illu2"  src="/public/img/lights.svg">
       </section>
       <section>
         <div class="flex justify-center gap-x-96 overflow-hidden -mt-36 z-0">
@@ -87,7 +87,7 @@
 
 
     <!-- Footer -->
-    <footer class="bg-[#6FDB77] text-white -mt-48 p-4 z-5 relative">
+    <footer class="bg-[#6FDB77] text-white lg:-mt-48 p-4 z-5 relative">
       <div class="container flex flex-col md:flex-row items-center justify-center gap-8 sm:gap-64 p-8">
         <img class="w-32 sm:w-48 lg:w-64" src="/public/img/Logo-White.svg">
         <p class="text-center md:text-left">
