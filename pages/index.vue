@@ -19,11 +19,13 @@
 
     <!-- Main Content -->
     <main class="bg-[#F4F4F4]">
+      <br>
       <section class="relative flex items-center justify-center bg-cover bg-center mt-0">
-        <div class="justify-center z-20 sm:mt-4 md:mt-8 lg:mt-12">
-          <img id="scrolling-pas" class="w-48 lg:px-0 md:w-80 lg:w-auto" src="/public/img/passen.svg" alt="Passen Image">
-        </div>
-      </section>
+      <div class="justify-center z-20 sm:mt-4 md:mt-8 lg:mt-12">
+        <img id="scrolling-pas" class="w-48 lg:px-0 md:w-80 lg:w-auto" src="/public/img/passen.svg" alt="Passen Image">
+      </div>
+    </section>
+
       <div class="flex justify-center gap-x-96 overflow-hidden lg:-mt-36 ">
         <img class="w-1/2 h-auto sm:w-97 lg:w-97 hidden lg:block" src="/public/img/bush.png">
         <img class="w-1/2 h-auto hidden lg:block" src="/public/img/bush.png">
