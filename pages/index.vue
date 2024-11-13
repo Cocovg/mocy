@@ -54,7 +54,7 @@
     </section>
       <section>
         <img class="pl-98 hidden lg:block" id="scrolling-illu1" src="/public/img/batteries.svg">
-        <div class="block lg:hidden relative mt-24 ">
+        <div class="block lg:hidden relative sm:mt-24 lg:mt-0">
           <img class="absolute w-full h-auto -mt-24" src="/public/img/bush.png">
         </div>
         <div class="relative md:flex md:justify-between md:mr-48 md:ml-48  overflow-hidden mt-12">
