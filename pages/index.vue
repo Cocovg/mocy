@@ -50,8 +50,6 @@
         </div>
       </div>
     </section>
-
-
       <section>
         <img class="pl-98 hidden lg:block" id="scrolling-illu1" src="/public/img/batteries.svg">
         <div class="relative md:flex md:justify-between  sm:mr-24 sm:ml-24 md:mr-48 md:ml-48 overflow-hidden mt-12">
