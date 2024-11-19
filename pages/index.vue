@@ -76,9 +76,9 @@
             <div class="text-center px-4">
               <h2 class="uppercase">AANVRAGEN PAS.</h2>
               <p class="ellipsetext leading-5 max-w-sm leading-relaxed">
-                Vraag nu een pas aan bij uw gemeente en ontvang deze via de post. De pas is onbeperkt geldig en is verbonden aan uw adres.
+                Vraag nu een pas aan bij uw locale supermarkt, of locatie waar u uw spullen wilt inleveren.
                 <br><br>
-                Elke maand hebben we speciale acties bij goede doelen en partners.
+                Nadat u uw gegevens heeft ingevuld kunt u gebruikt maken van de pas!
               </p>
             </div>
           </div>
